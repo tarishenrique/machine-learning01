@@ -1,3 +1,6 @@
+# Python version
+import sys
+print('Python: {}'.format(sys.version))
 # scipy
 import scipy
 print('scipy: %s' % scipy.__version__)
