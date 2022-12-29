@@ -28,4 +28,10 @@ clf.fit(X_train, y_train)
 
 clf.predict(X_teste)
 
+y_pred = clf.predict(X_teste)
+
 clf.score(X_teste, y_test)
+
+from sklearn.metrics import classification_report
+
+print(classification_report(y_test, y_pred, target_names=iris.target_names))
