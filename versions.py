@@ -19,3 +19,7 @@ print('statsmodels: %s' % statsmodels.__version__)
 # scikit-learn
 import sklearn
 print('sklearn: %s' % sklearn.__version__)
+# plotly.express
+# import plotly.express
+# print('plotly.express: %s' % plotly.express.)
+
